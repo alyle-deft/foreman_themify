@@ -5,12 +5,12 @@ Gem::Specification.new do |s|
   s.name        = "foreman_themify"
   s.version     = ForemanThemify::VERSION
   s.date        = Date.today.to_s
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ForemanThemify."
+  s.authors     = ["ShimShtein"]
+  s.email       = ["root@localhost"]
+  s.homepage    = "https://c78087-fore002.scnet.ms/"
+  s.summary     = "ForemanThemify tries to make a basic theme"
   # also update locale/gemspec.rb
-  s.description = "TODO: Description of ForemanThemify."
+  s.description = "ForemanThemify tries to make a basic theme."
 
   s.files = Dir["{app,config,db,lib,locale}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
